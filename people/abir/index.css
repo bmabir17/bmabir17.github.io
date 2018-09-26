@@ -1,0 +1,259 @@
+.col-md-12{
+	width: 96%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-10{
+	width: 80%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-9{
+	width: 72%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-8{
+	width: 64%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-7{
+	width: 56%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-6{
+	width: 48%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-5{
+	width: 40%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-4{
+	width: 32%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-3{
+	width: 24%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-2{
+	width: 16%;
+	float: left;
+	background-color: inherit;
+}
+.col-md-1{
+	width: 8%;
+	float: left;
+	background-color: inherit;
+}
+.container{
+	width: 100%;
+	float: left;
+}
+.container-fluid{
+	width: 94%;
+	float:left;
+}
+.content-body{
+	background-color: #EFEFEF;
+}
+.content{
+	padding-left: 2%;
+	margin-right: 1%;
+	margin-top: 5%;
+	background-color: #EFEFEF;
+	
+}
+.main_menu{
+	color: black;
+	background-color: white;
+	
+}
+.right-content{
+	background-color: white;
+	margin-left: 1%;
+}
+.btn{
+	height:40px;
+	display: block;
+	background-color: #33373D;
+	color: gray;
+	width: 100%;
+	margin:1px;
+	text-align: left;
+	border: 2px solid rgba(60,63,68, .1);
+	-webkit-transition-duration:0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.social-btn-area{
+	background-color: white;
+	min-height: 100px;
+	text-align: center;
+}
+.btn-round-social{
+	min-height: 40px;
+	min-width: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-color: lightgray;
+
+}
+.btn:hover ,.btn-round-social:hover{
+	background-color: #cc5556;
+	color: white;
+	border-color: white;
+}
+.h3-menu{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	width: 10%;
+}
+
+.pro-pic{
+	max-width: 100%;
+	float:left;
+	margin-top: 5px;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.h1-heading{
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 1px; 
+}
+.h2-heading{
+	text-align: left;
+	padding-left: 20px;
+	color:#77787a;
+	margin-top: 1px; 
+}
+.h3-heading{
+	text-align: left;
+	padding-left: 20px;
+	color:#77787a;
+}
+.h3-line-brk{
+	padding-top: 20px;
+}
+.p-describe{
+	text-align: left;
+	width: 94%;
+	padding-left: 20px;
+	color:#77787a;
+}
+table{
+	text-align: center;
+	border-collapse: collapse;
+	min-width: 100%;
+	min-height: 20%;
+	border: 2px solid lightgray; /* separate row data with thicker line */
+    margin-top: 5px;
+}
+tr{
+	border-bottom: 2px solid lightgray; /* separate row data with thicker line */
+    margin-top: 5px;
+}
+td{
+	background-color: #EFEFEF;
+	color:gray;
+}
+.table-class{
+	padding-left: 20px;
+	text-align: right;
+	
+	
+}
+progress[value]{
+	/*Reset the default apprearance */
+	-webkit-appearance:none;
+	appearance:none;
+
+	width: 90%;
+	height: 20px;
+}
+progress[value]::-webkit-progress-bar {
+	background-color: #eee;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25) inset;
+}
+progress[value]::-webkit-progress-value {
+	background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0,0,0,0.1) 33%, rgba(0,0,0,0.1) 66%, transparent 66%),
+	-webkit-linear-gradient(top,rgba(255,255,255,0.25),rgba(0,0,0,0.25)),
+	-webkit-linear-gradient(left,#f44,#cc5556);
+	border-radius: 2px;
+	background-size: 35px 20px,100% 100%,100% 100%;
+	-webkit-animate: animate-stripes 5s linear infinite;
+	animation: animate-stripes 5s linear infinite;
+}
+progress[value]::-moz-progress-bar{
+	background-image: 
+		-moz-linear-gradient(
+			135deg,
+			transparent 33%,
+			rgba(0,0,0,0.1) 33%,
+			rgba(0,0,0,0.1) 33%,
+			transparent 66%
+			),
+		-moz-linear-gradient(
+			top,
+			rgba(255,255,255, 0.25),
+			rgba(0,0,0,0.25)
+			),
+		-moz-linear-gradient(
+			left,
+			#f44,
+			#cc5556
+			);
+	border-radius: 2px;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+@-webkit-keyframes animate-stripes{
+	100% { background-position: -100px 0px; };
+}
+@keyframes animate-stripes{
+	100% {background-position: -100px 0px;};
+}
+.btn-work{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+
+}
+.div-work{
+	margin-left: 50px;
+	margin-top:50px;
+}
+.p-exp-subTitle{
+	color: gray;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.a-link{
+	color:black;
+}
+.edu-title{
+	margin-top: 10px;
+}
+#showModDate{
+	margin-top: 5%;
+	margin-left: 40%;
+}
+#credit{
+	margin-top: 5%;
+	margin-left: 48%;
+}
+
+
