@@ -139,10 +139,15 @@
 	color:#77787a;
 	margin-top: 1px; 
 }
-.h3-heading{
+.h3-heading-light{
 	text-align: left;
 	padding-left: 20px;
 	color:#77787a;
+}
+.h3-heading-dark{
+	text-align: left;
+	padding-left: 20px;
+	color:#000000;
 }
 .h3-line-brk{
 	padding-top: 20px;
@@ -152,6 +157,12 @@
 	width: 94%;
 	padding-left: 20px;
 	color:#77787a;
+}
+.p-describe-dark{
+	text-align: left;
+	width: 94%;
+	padding-left: 20px;
+	color:#000000;
 }
 table{
 	text-align: center;
@@ -227,14 +238,14 @@ progress[value]::-moz-progress-bar{
 }
 .btn-work{
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	background-color: white;
 
 }
 .div-work{
 	margin-left: 50px;
-	margin-top:50px;
+	margin-top:30px;
 }
 .p-exp-subTitle{
 	color: gray;
