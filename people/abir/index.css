@@ -267,4 +267,50 @@ progress[value]::-moz-progress-bar{
 	margin-left: 48%;
 }
 
+/*
+ * Keyframes
+ */
+
+ @keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	}
+  
+	100% {
+	  opacity: 1;
+	}
+  }
+  @keyframes fadeInRight {
+	0% {
+	  opacity: 0;
+	  transform: translate3d(30%, 0, 0);
+	}
+  
+	100% {
+	  opacity: 1;
+	  transform: none;
+	}
+  }
+
+.first-scene {
+	position: relative;
+  	animation: fadeInRight 2s ;
+}
+.second-scene {
+	position: relative;
+  	animation: fadeInRight 3s ;
+}
+.third-scene {
+	position: relative;
+  	animation: fadeInRight 4s ;
+}
+.scroll-scene{
+	opacity: 0;
+}
+.scroll-scene2{
+	opacity: 0;
+}
+.animate{
+	animation: fadeInRight 3s linear 1s forwards;
+}
 
