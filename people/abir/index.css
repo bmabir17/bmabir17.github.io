@@ -53,6 +53,12 @@
 	float: left;
 	background-color: inherit;
 }
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	[class*="col-"] {
+	  width: 100%;
+	}
+  }
 .container{
 	width: 100%;
 	float: left;
@@ -291,6 +297,26 @@ progress[value]::-moz-progress-bar{
 	  transform: none;
 	}
   }
+  @keyframes fadeInLeft {
+	0% {
+	  opacity: 0;
+	  transform: translate3d(-10%, 0, 0);
+	}
+  
+	100% {
+	  opacity: 1;
+	  transform: none;
+	}
+  }
+
+.top-animation {
+	position: relative;
+  	animation: fadeIn 2s ;
+}
+.menu-anim {
+	position: relative;
+  	animation: fadeInLeft 2s ;
+}
 
 .first-scene {
 	position: relative;
