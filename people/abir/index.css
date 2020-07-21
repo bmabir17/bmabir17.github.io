@@ -259,7 +259,7 @@ progress[value]::-moz-progress-bar{
 	margin-top:30px;
 }
 .p-exp-subTitle{
-	color: gray;
+	color: rgb(195, 47, 47);
 	margin-top: 2px;
 	margin-bottom: 2px;
 }
