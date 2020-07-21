@@ -1,3 +1,4 @@
+// https://medium.com/@KonradDaWo/how-to-display-medium-posts-on-a-website-with-plain-vanilla-js-basic-api-usage-example-865507848c2
 fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@bmabir17')
    .then((res) => res.json())
    .then((data) => {
