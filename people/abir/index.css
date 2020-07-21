@@ -142,7 +142,7 @@
 .h2-heading{
 	text-align: left;
 	padding-left: 20px;
-	color:#77787a;
+	color:#434344;
 	margin-top: 1px; 
 }
 .h3-heading-light{
@@ -184,7 +184,7 @@ tr{
 }
 td{
 	background-color: #EFEFEF;
-	color:gray;
+	color:rgb(83, 82, 82);
 }
 .table-class{
 	padding-left: 20px;
