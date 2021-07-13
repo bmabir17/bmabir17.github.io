@@ -9,14 +9,18 @@ body{
 
 .box-info {
     position: relative;
-    padding: 15px;
+    padding: 10px;
     background: #fff;
     color: #5b5b5b;
     margin-bottom: 20px;
     -webkit-transition: All 0.4s ease;
     -moz-transition: All 0.4s ease;
     -o-transition: All 0.4s ease;
-    border-bottom:4px solid #DDDDDD;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+.box-info:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 
 .user-profile-2 .header-cover {
@@ -27,6 +31,8 @@ body{
     height: 130px;
     overflow: hidden;
     z-index: 1;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .user-profile-2 .user-profile-inner {
@@ -49,4 +55,13 @@ body{
 
 .user-button {
     margin: 15px 0;
+}
+
+.btn-circle.btn-sm {
+    width: 65%;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 12px;
+    text-align: center;
 }
