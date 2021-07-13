@@ -1,34 +1,49 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="avaterBox.css">
+		<link rel="stylesheet" type="text/css" href="avaterBox.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script
+        <!-- Optional theme -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- <script
           src="https://code.jquery.com/jquery-3.2.1.min.js"
           integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
           crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		-->
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    </head>
+
+	</head>
     <body>
         <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">Profile Hub</a>
-            </div>
-            <ul class="nav navbar-nav">
-              <li><a href="/index.html">Home</a></li>
-              <li class="active"><a href="/index.html">Profiles</a></li>
-              <li><a href="/projects/index.html">Projects</a></li>
-              <!-- <li><a href="http://cv.bdwebhub.com/tutorials">Tutorials</a></li> -->
-              <li><a href="/blog/index.html">Blog</a></li>
-            </ul>
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-          </div>
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<!-- <span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> -->
+					  </button>
+					<a class="navbar-brand" href="#">Profile Hub</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="/index.html">Home</a></li>
+						<li class="active"><a href="/index.html">Profiles</a></li>
+						<li><a href="/projects/index.html">Projects</a></li>
+						<!-- <li><a href="http://cv.bdwebhub.com/tutorials">Tutorials</a></li> -->
+						<li><a href="/blog/index.html">Blog</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			</div>
         </nav>
         <div class="container bootstrap snippet">
             <div class="row">
@@ -42,120 +57,123 @@
             </div>
             <hr>
             <br>
-            <div class="col-sm-4">
-            	<!-- Begin user profile -->
-            	<div class="box-info text-center user-profile-2">
-            		<div class="header-cover">
-            			<img src="people/abir/avater_background.jpg" height="200%" widht="50%" alt="User cover">
-            		</div>
-            		<div class="user-profile-inner">
-            			<h4 class="white">B M Abir</h4>
-            			<img src="people/abir/myPic.jpg" class="img-circle profile-avatar" alt="User avatar">
-            			<h5>Machine Learning Engineer</h5>
-            			<!-- User button -->
-            			<div class="user-button">
-            				<div class="row">
-            					<div class="col-md-12 ">
-            						<a  type="button" href="people/abir/index.html" role="button" class=" btn btn-primary  btn-circle btn-sm" style="color:#fff"><i class="fa fa-envelope"></i> View CV</a>
-            					</div>
-            				</div>
-            			</div>
-            		</div>
-            	</div>
-            </div> 
-            <div class="col-sm-4">
-            	<!-- Begin user profile -->
-            	<div class="box-info text-center user-profile-2">
-            		<div class="header-cover">
-            			<img src="people/abir/avater_background.jpg" height="200%" widht="50%" alt="User cover">
-            		</div>
-            		<div class="user-profile-inner">
-            			<h4 class="white">abirmohammed17</h4>
-            			<img src="https://yt3.ggpht.com/a-/AAuE7mAYRxrsrxG1g3S0TOVea2o3afyVPXvSS82OmydqlIY=s88-c-k-c0xffffffff-no-rj-mo" class="img-circle profile-avatar" alt="User avatar">
-            			<h5>Project Video Portfolio</h5>
-            			<!-- User button -->
-            			<div class="user-button">
-            				<div class="row">
-            					<div class="col-md-12">
-            						<a type="button" href="https://www.youtube.com/c/abirmohammed17" role="button" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-envelope"></i> View Youtube Channel</a>
-                                </div>
-            				</div>
-            			</div>
-            		</div>
-            	</div>
-            </div> 
-            <div class="col-sm-4">
-            	<!-- Begin user profile -->
-            	<div class="box-info text-center user-profile-2">
-            		<div class="header-cover">
-            			<img src="people/abir/avater_background.jpg" height="200%" widht="50%" alt="User cover">
-            		</div>
-            		<div class="user-profile-inner">
-            			<h4 class="white">bmabir17</h4>
-            			<img src="https://avatars0.githubusercontent.com/u/5344072?s=460&v=4" class="img-circle profile-avatar" alt="User avatar">
-            			<h5>Code Repository</h5>
-            			<!-- User button -->
-            			<div class="user-button">
-            				<div class="row">
-            					<div class="col-md-12">
-            						<a type="button" href="https://github.com/bmabir17" role="button" class="btn btn-default btn-circle btn-sm"><i class="fa fa-envelope"></i> View Github Profile</a>
-            					</div>
-            				</div>
-            			</div>
-            		</div>
-            	</div>
-            </div>
-            
-            <div class="col-sm-4">
-            	<div class="box-info text-center user-profile-2">
-            		<div class="header-cover">
-            			<img src="stack-overflow.png" style="padding-top:10px" height="50" widht="80" alt="User cover">
-            		</div>
-            		<div class="user-profile-inner">
-            			<h4 class="white"></h4>
-                        <br/>
-                        <br/>
-            			<img src="people/abir/myPic.jpg" class="img-circle profile-avatar" alt="User avatar">
-            			<h5>StackOverflow Timeline</h5>
-            			<div class="user-button">
-            				<div class="row">
-            					<div class="col-md-12">
-            						<a type="button" href="https://stackoverflow.com/story/bmabir17" role="button" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-envelope"></i> Stack Overflow Timeline</a>
-            					</div>
-            				</div>
-            			</div>
-            		</div>
-            	</div>
-            </div> 
-            <div class="col-sm-4">
-            	<div class="box-info text-center user-profile-2">
-            		<div class="header-cover">
-            			<img src="https://www.kaggle.com/static/images/site-logo.png" style="padding-top:10px" height="50" widht="80" alt="User cover">
-            		</div>
-            		<div class="user-profile-inner">
-            			<h4 class="white"></h4>
-                        <br/>
-                        <br/>
-            			<img src="people/abir/myPic.jpg" class="img-circle profile-avatar" alt="User avatar">
-            			<h5>Kaggle Profile</h5>
-            			<div class="user-button">
-            				<div class="row">
-            					<div class="col-md-12">
-            						<a type="button" href="https://www.kaggle.com/bmabir17" role="button" class="btn btn-primary btn-circle btn-sm"><i class="fa fa-envelope"></i> Kaggle Profile </a>
-            					</div>
-            				</div>
-            			</div>
-            		</div>
-            	</div>
-            </div>
-			<div class="col-sm-4" style="margin:auto;">
-				<!--                 <div style="border-bottom:4px solid #DDDDDD;padding-top: 10px;" class=" text-center LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" 
-									 data-type="vertical" data-theme="light" data-vanity="bmabir17">
-									<a class="LI-simple-link" href='https://bd.linkedin.com/in/bmabir17?trk=profile-badge'>BM Abir</a>
-								</div> -->
-				<div style="padding-top: 5px;padding-bottom: 21px;" class="text-center LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" 
-						data-type="horizontal" data-theme="light" data-vanity="bmabir17">
-					<a class="LI-simple-link" href='https://bd.linkedin.com/in/bmabir17?trk=profile-badge'></a>
+			<div class="row">
+				<div class="col-md-4 ">
+					<!-- Begin user profile -->
+					<div class="text-center box-info user-profile-2">
+						<div class="header-cover">
+							<img src="people/abir/avater_background.jpg" height="200%" widht="50%" alt="User cover">
+						</div>
+						<div class="user-profile-inner">
+							<h4 class="white">B M Abir</h4>
+							<img src="people/abir/myPic.jpg" class="img-circle profile-avatar" alt="User avatar">
+							<h5>Machine Learning Engineer</h5>
+							<!-- User button -->
+							<div class="user-button">
+								<div class="row">
+									<div class="col-md-12 ">
+										<a  type="button" href="people/abir/index.html" role="button" class=" btn btn-primary  btn-circle btn-sm" style="color:#fff"><i class="fa fa-envelope"></i> View CV</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<div class="col-md-4">
+					<!-- Begin user profile -->
+					<div class="box-info text-center user-profile-2">
+						<div class="header-cover">
+							<img src="people/abir/avater_background.jpg" height="200%" widht="50%" alt="User cover">
+						</div>
+						<div class="user-profile-inner">
+							<h4 class="white">abirmohammed17</h4>
+							<img src="https://yt3.ggpht.com/a-/AAuE7mAYRxrsrxG1g3S0TOVea2o3afyVPXvSS82OmydqlIY=s88-c-k-c0xffffffff-no-rj-mo" class="img-circle profile-avatar" alt="User avatar">
+							<h5>Project Video Portfolio</h5>
+							<!-- User button -->
+							<div class="user-button">
+								<div class="row">
+									<div class="col-md-12">
+										<a type="button" href="https://www.youtube.com/c/abirmohammed17" role="button" class="btn btn-danger btn-circle btn-sm" style="color:#fff"><i class="fa fa-envelope"></i> View Youtube Channel</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<div class="col-md-4">
+					<!-- Begin user profile -->
+					<div class="box-info text-center user-profile-2">
+						<div class="header-cover">
+							<img src="people/abir/avater_background.jpg" height="200%" widht="50%" alt="User cover">
+						</div>
+						<div class="user-profile-inner">
+							<h4 class="white">bmabir17</h4>
+							<img src="https://avatars0.githubusercontent.com/u/5344072?s=460&v=4" class="img-circle profile-avatar" alt="User avatar">
+							<h5>Code Repository</h5>
+							<!-- User button -->
+							<div class="user-button">
+								<div class="row">
+									<div class="col-md-12">
+										<a type="button" href="https://github.com/bmabir17" role="button" class="btn btn-default btn-circle btn-sm"><i class="fa fa-envelope"></i> View Github Profile</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-info text-center user-profile-2">
+						<div class="header-cover">
+							<img src="stack-overflow.png" style="padding-top:10px" height="50" widht="80" alt="User cover">
+						</div>
+						<div class="user-profile-inner">
+							<h4 class="white"></h4>
+							<br/>
+							<br/>
+							<img src="people/abir/myPic.jpg" class="img-circle profile-avatar" alt="User avatar">
+							<h5>StackOverflow Timeline</h5>
+							<div class="user-button">
+								<div class="row">
+									<div class="col-md-12">
+										<a type="button" href="https://stackoverflow.com/story/bmabir17" role="button" class="btn btn-danger btn-circle btn-sm" style="color:#fff"><i class="fa fa-envelope"></i> Stack Overflow Timeline</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<div class="col-md-4">
+					<div class="box-info text-center user-profile-2">
+						<div class="header-cover">
+							<img src="https://www.kaggle.com/static/images/site-logo.png" style="padding-top:10px" height="50" widht="80" alt="User cover">
+						</div>
+						<div class="user-profile-inner">
+							<h4 class="white"></h4>
+							<br/>
+							<br/>
+							<img src="people/abir/myPic.jpg" class="img-circle profile-avatar" alt="User avatar">
+							<h5>Kaggle Profile</h5>
+							<div class="user-button">
+								<div class="row">
+									<div class="col-md-12">
+										<a type="button" href="https://www.kaggle.com/bmabir17" role="button" class="btn btn-primary btn-circle btn-sm" style="color:#fff"><i class="fa fa-envelope"></i> Kaggle Profile </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4" style="margin:auto;">
+					<!--                 <div style="border-bottom:4px solid #DDDDDD;padding-top: 10px;" class=" text-center LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" 
+										data-type="vertical" data-theme="light" data-vanity="bmabir17">
+										<a class="LI-simple-link" href='https://bd.linkedin.com/in/bmabir17?trk=profile-badge'>BM Abir</a>
+									</div> -->
+					<div style="padding-top: 5px;padding-bottom: 21px;" class="text-center LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" 
+							data-type="horizontal" data-theme="light" data-vanity="bmabir17">
+						<a class="LI-simple-link" href='https://bd.linkedin.com/in/bmabir17?trk=profile-badge'></a>
+					</div>
 				</div>
 			</div>    
         </div>
